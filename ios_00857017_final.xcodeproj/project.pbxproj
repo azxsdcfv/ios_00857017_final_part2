@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,6 +11,18 @@
 		439F68AB27766C5E009CAD5C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439F68AA27766C5E009CAD5C /* ContentView.swift */; };
 		439F68AD27766C66009CAD5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 439F68AC27766C66009CAD5C /* Assets.xcassets */; };
 		439F68B027766C66009CAD5C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 439F68AF27766C66009CAD5C /* Preview Assets.xcassets */; };
+		439F68BF2776823C009CAD5C /* datafetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439F68BE2776823C009CAD5C /* datafetch.swift */; };
+		439F68C827768F02009CAD5C /* models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439F68C727768F02009CAD5C /* models.swift */; };
+		439F68CF277751D3009CAD5C /* list.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439F68CE277751D3009CAD5C /* list.swift */; };
+		439F68D32777531D009CAD5C /* news.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439F68D22777531D009CAD5C /* news.swift */; };
+		439F68DE27775E98009CAD5C /* newsmodels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439F68DD27775E98009CAD5C /* newsmodels.swift */; };
+		439F68E127775ECD009CAD5C /* newsfetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439F68E027775ECD009CAD5C /* newsfetch.swift */; };
+		439F68E5277763FB009CAD5C /* home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439F68E4277763FB009CAD5C /* home.swift */; };
+		439F68EB27776B78009CAD5C /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 439F68EA27776B78009CAD5C /* Kingfisher */; };
+		439F6901277782C3009CAD5C /* navigation_url.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439F6900277782C3009CAD5C /* navigation_url.swift */; };
+		439F690E277784DE009CAD5C /* navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439F690B277784DE009CAD5C /* navigation.swift */; };
+		439F691727778CEE009CAD5C /* netmoniter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439F691627778CEE009CAD5C /* netmoniter.swift */; };
+		439F691B2777931E009CAD5C /* NoNetworkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439F691A2777931E009CAD5C /* NoNetworkView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +32,17 @@
 		439F68AC27766C66009CAD5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		439F68AF27766C66009CAD5C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		439F68B127766C66009CAD5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		439F68BE2776823C009CAD5C /* datafetch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = datafetch.swift; sourceTree = "<group>"; };
+		439F68C727768F02009CAD5C /* models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = models.swift; sourceTree = "<group>"; };
+		439F68CE277751D3009CAD5C /* list.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = list.swift; path = ../list.swift; sourceTree = "<group>"; };
+		439F68D22777531D009CAD5C /* news.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = news.swift; sourceTree = "<group>"; };
+		439F68DD27775E98009CAD5C /* newsmodels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newsmodels.swift; sourceTree = "<group>"; };
+		439F68E027775ECD009CAD5C /* newsfetch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newsfetch.swift; sourceTree = "<group>"; };
+		439F68E4277763FB009CAD5C /* home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = home.swift; path = ../home.swift; sourceTree = "<group>"; };
+		439F6900277782C3009CAD5C /* navigation_url.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = navigation_url.swift; sourceTree = "<group>"; };
+		439F690B277784DE009CAD5C /* navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = navigation.swift; sourceTree = "<group>"; };
+		439F691627778CEE009CAD5C /* netmoniter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = netmoniter.swift; sourceTree = "<group>"; };
+		439F691A2777931E009CAD5C /* NoNetworkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoNetworkView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				439F68EB27776B78009CAD5C /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -36,6 +60,7 @@
 		439F689C27766C5E009CAD5C = {
 			isa = PBXGroup;
 			children = (
+				439F691A2777931E009CAD5C /* NoNetworkView.swift */,
 				439F68A727766C5E009CAD5C /* ios_00857017_final */,
 				439F68A627766C5E009CAD5C /* Products */,
 			);
@@ -52,8 +77,15 @@
 		439F68A727766C5E009CAD5C /* ios_00857017_final */ = {
 			isa = PBXGroup;
 			children = (
+				439F690B277784DE009CAD5C /* navigation.swift */,
+				439F68CE277751D3009CAD5C /* list.swift */,
+				439F68E4277763FB009CAD5C /* home.swift */,
+				439F68B827766E69009CAD5C /* view models */,
+				439F68C527768EAE009CAD5C /* New Group */,
 				439F68A827766C5E009CAD5C /* ios_00857017_finalApp.swift */,
 				439F68AA27766C5E009CAD5C /* ContentView.swift */,
+				439F6900277782C3009CAD5C /* navigation_url.swift */,
+				439F68D22777531D009CAD5C /* news.swift */,
 				439F68AC27766C66009CAD5C /* Assets.xcassets */,
 				439F68B127766C66009CAD5C /* Info.plist */,
 				439F68AE27766C66009CAD5C /* Preview Content */,
@@ -67,6 +99,25 @@
 				439F68AF27766C66009CAD5C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		439F68B827766E69009CAD5C /* view models */ = {
+			isa = PBXGroup;
+			children = (
+				439F68BE2776823C009CAD5C /* datafetch.swift */,
+				439F68E027775ECD009CAD5C /* newsfetch.swift */,
+				439F691627778CEE009CAD5C /* netmoniter.swift */,
+			);
+			path = "view models";
+			sourceTree = "<group>";
+		};
+		439F68C527768EAE009CAD5C /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				439F68C727768F02009CAD5C /* models.swift */,
+				439F68DD27775E98009CAD5C /* newsmodels.swift */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +136,9 @@
 			dependencies = (
 			);
 			name = ios_00857017_final;
+			packageProductDependencies = (
+				439F68EA27776B78009CAD5C /* Kingfisher */,
+			);
 			productName = ios_00857017_final;
 			productReference = 439F68A527766C5E009CAD5C /* ios_00857017_final.app */;
 			productType = "com.apple.product-type.application";
@@ -112,6 +166,9 @@
 				Base,
 			);
 			mainGroup = 439F689C27766C5E009CAD5C;
+			packageReferences = (
+				439F68E927776B78009CAD5C /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 439F68A627766C5E009CAD5C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,8 +195,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				439F68D32777531D009CAD5C /* news.swift in Sources */,
+				439F68CF277751D3009CAD5C /* list.swift in Sources */,
+				439F68E127775ECD009CAD5C /* newsfetch.swift in Sources */,
+				439F6901277782C3009CAD5C /* navigation_url.swift in Sources */,
+				439F691B2777931E009CAD5C /* NoNetworkView.swift in Sources */,
 				439F68AB27766C5E009CAD5C /* ContentView.swift in Sources */,
+				439F68DE27775E98009CAD5C /* newsmodels.swift in Sources */,
+				439F68BF2776823C009CAD5C /* datafetch.swift in Sources */,
+				439F690E277784DE009CAD5C /* navigation.swift in Sources */,
+				439F68E5277763FB009CAD5C /* home.swift in Sources */,
 				439F68A927766C5E009CAD5C /* ios_00857017_finalApp.swift in Sources */,
+				439F68C827768F02009CAD5C /* models.swift in Sources */,
+				439F691727778CEE009CAD5C /* netmoniter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,6 +394,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		439F68E927776B78009CAD5C /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.1.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		439F68EA27776B78009CAD5C /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 439F68E927776B78009CAD5C /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 439F689D27766C5E009CAD5C /* Project object */;
 }
