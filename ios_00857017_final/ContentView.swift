@@ -15,6 +15,7 @@ struct ContentView: View {
             TabView {
                 home().tabItem { Label("首頁",systemImage:"house") }
                 listView().tabItem {
+                    
                     Label("影片",systemImage: "play.tv")
                 }
                 news().tabItem {

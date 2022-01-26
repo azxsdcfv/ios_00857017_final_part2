@@ -23,6 +23,7 @@
 		439F690E277784DE009CAD5C /* navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439F690B277784DE009CAD5C /* navigation.swift */; };
 		439F691727778CEE009CAD5C /* netmoniter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439F691627778CEE009CAD5C /* netmoniter.swift */; };
 		439F691B2777931E009CAD5C /* NoNetworkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439F691A2777931E009CAD5C /* NoNetworkView.swift */; };
+		4AD895C127A1880B000C3BAF /* search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD895C027A1880B000C3BAF /* search.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		439F690B277784DE009CAD5C /* navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = navigation.swift; sourceTree = "<group>"; };
 		439F691627778CEE009CAD5C /* netmoniter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = netmoniter.swift; sourceTree = "<group>"; };
 		439F691A2777931E009CAD5C /* NoNetworkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoNetworkView.swift; sourceTree = "<group>"; };
+		4AD895C027A1880B000C3BAF /* search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = search.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				439F68AA27766C5E009CAD5C /* ContentView.swift */,
 				439F6900277782C3009CAD5C /* navigation_url.swift */,
 				439F68D22777531D009CAD5C /* news.swift */,
+				4AD895C027A1880B000C3BAF /* search.swift */,
 				439F68AC27766C66009CAD5C /* Assets.xcassets */,
 				439F68B127766C66009CAD5C /* Info.plist */,
 				439F68AE27766C66009CAD5C /* Preview Content */,
@@ -200,6 +203,7 @@
 				439F68E127775ECD009CAD5C /* newsfetch.swift in Sources */,
 				439F6901277782C3009CAD5C /* navigation_url.swift in Sources */,
 				439F691B2777931E009CAD5C /* NoNetworkView.swift in Sources */,
+				4AD895C127A1880B000C3BAF /* search.swift in Sources */,
 				439F68AB27766C5E009CAD5C /* ContentView.swift in Sources */,
 				439F68DE27775E98009CAD5C /* newsmodels.swift in Sources */,
 				439F68BF2776823C009CAD5C /* datafetch.swift in Sources */,
